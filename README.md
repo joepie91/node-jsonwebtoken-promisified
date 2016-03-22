@@ -43,7 +43,7 @@ Promise.try(function() {
 
 Like `jwt.sign`, but returns a Promise. [Documentation here](https://github.com/auth0/node-jsonwebtoken#jwtsignpayload-secretorprivatekey-options-callback).
 
-### jwt.verifyAsync(payload, secretOrPrivateKey, options)
+### jwt.verifyAsync(payload, secretOrPublicKey, options)
 
 Like `jwt.verify`, but returns a Promise. [Documentation here](https://github.com/auth0/node-jsonwebtoken#jwtverifytoken-secretorpublickey-options-callback).
 
